@@ -1,2 +1,1 @@
-# biblibaby.github.io
-biblibaby.org
+# [www.biblibaby.org](https://www.biblibaby.org/)
