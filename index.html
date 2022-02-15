@@ -6,13 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Biblical Baby Name Checker</title>
+    <script src="./script.js"></script>
 </head>
 
 <body>
-    <h1>Biblical Baby Name Checker</h1>
-    <p>Website under construction.</p>
-    <p><a href="https://github.com/biblibaby/biblibaby.github.io">https://github.com/biblibaby/biblibaby.github.io</a>
+    <h1>BibliBaby: Biblical Baby Name Checker</h1>
+    <p>Words are counted from <a href="https://www.gutenberg.org/ebooks/10">The King James Version of the Bible</a></p>
+    <p>Source code: <a
+            href="https://github.com/biblibaby/biblibaby.github.io">https://github.com/biblibaby/biblibaby.github.io</a>
     </p>
+    <p>Type something: <input id="search-bar" onkeyup="doSearch()" type="text" name="search-bar"></p>
+    <ul id="result-list"></ul>
 </body>
 
 </html>
